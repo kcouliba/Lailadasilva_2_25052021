@@ -1,0 +1,11 @@
+[user]
+	name = Laila Da silva
+	email = laila.dasilva11@gmail.com
+[color]
+	diff = auto
+	status = auto
+	branch = auto
+[core]
+	editor = vim
+[merge]
+	tool = vimdiff
