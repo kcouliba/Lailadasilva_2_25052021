@@ -1,6 +1,28 @@
-header p,
+.container {
+  max-width: 1350px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+h2,
+p {
+  font-size: large;
+}
+p {
+  font-size: small;
+}
+header,
 a {
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  padding: 40px 0px;
+}
+nav,
+p {
+  font-size: 0.9em;
+  color: black;
+  padding-top: 3px;
+  text-decoration: none;
 }
