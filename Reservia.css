@@ -1,28 +1,21 @@
-.container {
-  max-width: 1350px;
-  margin: auto;
+body {
+  font-family: "Raleway";
+}
+header {
+  margin-top: 2rem;
+  padding-left: 2rem;
+}
+nav {
+  color: blue;
+}
+
+nav {
   display: flex;
-  flex-direction: column;
-}
-h2,
-p {
-  font-size: large;
-}
-p {
-  font-size: small;
-}
-header,
-a {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  padding: 40px 0px;
+  justify-content: flex-end;
+  margin-top: 2rem;
+  padding-right: 2rem;
 }
 nav,
-p {
-  font-size: 0.9em;
-  color: black;
-  padding-top: 3px;
-  text-decoration: none;
+a {
+  margin: 0 10px 0 20px;
 }
