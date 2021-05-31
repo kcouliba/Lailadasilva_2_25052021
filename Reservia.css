@@ -37,6 +37,7 @@ a {
 .flexcentre {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 .bordureSearch {
   width: 400px;
@@ -49,8 +50,8 @@ a {
   width: 230px;
   font-size: 18px;
   color: black;
-  font-weight: bold;
 }
+
 .iconsize {
   height: 50px;
   width: 50px;
@@ -74,4 +75,7 @@ a {
 }
 .paddingsearch {
   padding-left: 20px;
+}
+/*FILTRES*/
+.filtre {
 }
