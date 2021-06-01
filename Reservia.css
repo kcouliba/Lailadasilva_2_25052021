@@ -78,4 +78,11 @@ a {
 }
 /*FILTRES*/
 .filtre {
+  display: flex;
+  align-items: center;
+}
+.filtreicons {
+  border: 2px solid #f2f2f2;
+  height: 50px;
+  border-radius: 30px;
 }
