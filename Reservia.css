@@ -77,6 +77,12 @@ a {
   padding-left: 20px;
 }
 /*FILTRES*/
+
+.margefiltre {
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
 .filtre {
   display: flex;
   align-items: center;
@@ -102,6 +108,13 @@ a {
   height: 45px;
   color: #0065fc;
 }
-.hebergement {
-  margin-top: 20px;
+
+i.flexcentre {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.alignfiltre {
+  display: flex;
+  flex-direction: row;
 }
